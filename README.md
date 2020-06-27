@@ -41,7 +41,7 @@ If you have multiple profiles you could deploy to, make sure to include the comm
 
 ```shell
 aws cloudformation create-stack \
---template-body file://ramp-up-project-rotation.yaml \
+--template-body file://templates/ramp-up-project-rotation.yaml \
 --parameters file://parameters/create_params.json \
 --stack-name demo-db-secrets \
 --capabilities CAPABILITY_NAMED_IAM CAPABILITY_AUTO_EXPAND \
@@ -52,7 +52,7 @@ To update the stack, use the `update-stack` command:
 
 ```shell
 aws cloudformation update-stack \
---template-body file://ramp-up-project-rotation.yaml \
+--template-body file://templates/ramp-up-project-rotation.yaml \
 --parameters file://parameters/create_params.json \
 --stack-name demo-db-secrets \
 --capabilities CAPABILITY_NAMED_IAM CAPABILITY_AUTO_EXPAND
