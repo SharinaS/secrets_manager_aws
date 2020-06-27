@@ -245,3 +245,4 @@ def get_secret_dict(service_client, arn, stage, token=None):
             raise KeyError("%s key is missing from secret JSON" % field)
     # Parse and return the secret JSON string
     return secret_dict
+    

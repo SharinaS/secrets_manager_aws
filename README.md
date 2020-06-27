@@ -29,6 +29,12 @@ You will also need to create a folder called "paramaters," and within it, a file
 ]
 ```
 
+### Validate/Lint Stack
+
+```shell
+aws cloudformation validate-template --template-body file://ramp-up-project-rotation.yaml
+```
+
 ### Create the Stack
 
 If you have multiple profiles you could deploy to, make sure to include the command `--profile <profile-name>` into your command.
