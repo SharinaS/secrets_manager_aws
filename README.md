@@ -102,13 +102,14 @@ Interact with your DB as usual, using SQL.
 Check what Lambdas exist in your AWS account:
 
 ```
-aws lambda list-functions --profile training
+aws lambda list-functions
 ```
 
 ## Contributors
 
 Sharina Stubbs
-Many thanks to the following for help with debugging, providing suggestions, and sharing their knowledge.
+
+Many thanks to the following for sharing their knowledge.
 
 * Alexandra Shumway
 * Doug Ireton
