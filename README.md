@@ -1,6 +1,6 @@
 # RDS and Secrets Manager for AWS Deployment.
 
-This repo contains the yaml file and python file needed to spin up both a PostgreSQL RDS database and Secrets Manager to hold the username/password for the database in AWS. Secrets Manager is configured to automatically rotate the secret (aka the password) every 30 days, unless you choose a different length of time. 
+This repo contains the yaml file and python file needed to spin up both a PostgreSQL RDS database and Secrets Manager to hold the username/password for the database in AWS.  Secrets Manager is configured to automatically rotate the secret (aka the password) every 30 days, unless you choose a different length of time. The ability to rotate the secret comes from the Lambda. When the stack is first created in AWS, the secret is immediately changed to a complex combination of appropriate values. It will then proceed with its scheduled rotation. 
 
 ## Template Parameters
 
