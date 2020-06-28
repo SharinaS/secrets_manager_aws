@@ -1,6 +1,6 @@
-# secrets_manager_aws
+# RDS and Secrets Manager for AWS Deployment.
 
-A demo template on using CloudFormation to create an RDS database and Secrets Manager. The ability to rotate a secret is also a key portion of this template.
+This repo contains the yaml file and python file needed to spin up both a PostgreSQL RDS database and Secrets Manager to hold the username/password for the database in AWS. Secrets Manager is configured to automatically rotate the secret (aka the password) every 30 days, unless you choose a different length of time. 
 
 ## Template Parameters
 
