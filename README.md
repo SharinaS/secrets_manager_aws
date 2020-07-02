@@ -4,7 +4,7 @@ This repo contains the yaml file and python file needed to spin up both a Postgr
 
 ## Template Parameters
 
-This template uses multiple default parameters, most of which use default values. It does, however, have a parameter that you will need to update the value of before deploying the stack.
+This template uses multiple parameters, most of which are default values. It does, however, have a parameter that you will need to update the value of before deploying the stack.
 
 | Parameter | Description | Current Value |
 | --------- |------------ |-------------- |
